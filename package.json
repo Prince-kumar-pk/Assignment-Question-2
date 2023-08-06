@@ -1,0 +1,23 @@
+{
+  "name": "assignment-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prince-kumar-pk/Assignment-Question-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prince-kumar-pk/Assignment-Question-2/issues"
+  },
+  "homepage": "https://github.com/Prince-kumar-pk/Assignment-Question-2#readme",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}
