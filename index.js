@@ -35,7 +35,12 @@ function highlightHTMLContent(htmlContent, plainText, plainTextPositions) {
         
         startInd = htmlContent.indexOf(portion); // it return only starting position
 
-        
+        if(startInd !== -1){
+            while(startInd<element.start){
+                startInd = htmlContent.indexOf(portion, startInd+1)
+            }
+        }
+
 
         console.log(startInd);
         //So for ending position of that portion 
